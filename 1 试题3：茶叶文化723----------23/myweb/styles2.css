@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+a{ text-decoration:none;}.top {
+	background-color: #D8B571;
+	height: 30px;
+	width: 100%;
+	font-size: 12px;
+}
+.container {
+	color: #FFF;
+	height: 30px;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.navbar {
+	background-color: #71AC74;
+	height: 90px;
+	width: 100%;
+}
+.navbar .contianer {
+	height: 90px;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo {
+	line-height: 90px;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 90px;
+	width: 266px;
+	float: left;
+}
+.nav {
+	float: right;
+	height: 90px;
+	width: auto;
+}
+.navbar ul li {
+	float: left;
+	display: block;
+	height: 90px;
+	width: 86px;
+	text-align: center;
+	line-height: 90px;
+}
+.nav ul li a {
+	color: #FFF;
+}
+.nav ul li:hover {
+	background-color: #569a69;
+}
+.banner {
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+	height: 415px;
+	width: 100%;
+}
+.shopshow {
+	height: 350px;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.shopshow .shop {
+	background-image: url(images/products.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 103px;
+	width: 377px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.shopshow dl {
+	float: left;
+	height: 170px;
+	width: 170px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+.shopshow dl dd img {
+	padding: 5px;
+	height: 160px;
+	width: 160px;
+}
+
+.shopshow dl dd:hover img{
+	opacity:0.7;}
+
+.shopshow dl dt {
+	font-size: 12px;
+	line-height: 20px;
+	color: #80C282;
+	text-align: center;
+	height: 20px;
+	width: 170px;
+	margin-top: 10px;
+}
+.aboutus {
+	background-image: url(images/bg_paralax.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 340px;
+	width: 100%;
+}
+.aboutus h3 {
+	height: auto;
+	width: 1170px;
+	font-size: 46px;
+	font-weight: 300;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #FFF;
+}
+
+
+.aboutus p {
+	color: #FFF;
+	font-size: 13px;
+	line-height: 20px;
+	height: auto;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+.aboutus .button {
+	line-height: 30px;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+}
+.aboutus .button p {
+	line-height: 30px;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+	letter-spacing: 0.1em;
+}
+.aboutus .button:hover {
+	box-shadow:0 0 20px #fff;
+}
+.box6 {
+	height: 300px;
+	width: 1170px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box6 .news {
+	float: left;
+	height: auto;
+	width: 700px;
+}
+.box6 .contanct {
+	float: right;
+	height: auto;
+	width: 440px;
+}
+.title_h1 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #71AC74;
+	height: 40px;
+	width: 700px;
+	line-height: 40px;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.box6 .news .index_news {
+	height: auto;
+	width: 700px;
+	margin-top: 10px;
+}
+.box6 .contanct .index_contact {
+	width: 440px;
+	margin-top: 10px;
+}
+
+
+
+.contanct .title_h1{ width:440px;}
+
+.box6 .news .index_news li {
+	line-height: 40px;
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	list-style-position: inside;
+	list-style-image: url(images/news_li.png);
+	text-indent: 5px;
+	color: #999;
+}
+.box6 .news .index_news li span {
+	float: right;
+}
+
+.box6 .contanct .index_contact li {
+	line-height: 40px;
+	color: #999;
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.footer {
+	background-color: #4B4B4A;
+	height: 120px;
+	width: 100%;
+}
+.footer p {
+	height: 120px;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FFF;
+	line-height: 30px;
+	padding-top: 30px;
+}
